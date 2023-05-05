@@ -1,0 +1,8 @@
+default: Adventure.java Avatar.java Nations.java Purse.java
+	javac Adventure.java Avatar.java Nations.java Purse.java
+
+run: Adventure.class Avatar.class Nations.class Purse.class
+	java Adventure
+
+clean:
+	rm -f *.class
